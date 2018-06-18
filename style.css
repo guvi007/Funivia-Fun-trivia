@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+body {
+  background-color: #222;
+}
+.plate {
+  max-width: 410px;
+  margin-top: 4%;
+}
+.shadow {
+  color: #fff;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 0.8em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+  margin-left: -50px;
+}
+.script {
+  font-family: "Seaweed Script";
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  margin:0;
+}
+.script span {
+  background-color: #222;
+  padding: 0 0.3em;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+.text2 {
+  font-size: 169px;
+}
+
+body {
+    font-family: "Neucha", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: left;
+    background-color: #141414;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.navbarr {
+  position: fixed;
+  font-size: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 25px 25px 55px 5px/5px 55px 25px 25px;
+  padding: 0.3rem 2rem;
+  padding-right: 3em;
+  background-color: coral;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+  background-color: #141414;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+    color: #000;
+}
+
+.navbar-brand {
+  padding-top:17px;
+  font-size: 30px;
+}
+
+@media (max-width:768px) {
+  .text2 {
+    font-size: 90px;
+  }
+  .shadow {
+    margin-left: 0px;
+  }
+  .script {
+    font-size: 30px;
+  }
+}
+
+@media (max-width:768px) {
+  .navbarr {
+    padding: 0px 1em 0px 2rem;
+    font-size: 15px;
+    line-height: 0.4;
+  }
+  .navbar-nav>li>a {
+    line-height: 5px;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;right: 0px;
+  font-size: 20px;
+}
+
+.play {
+  border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
+  color: #fff;
+  min-width: 180px;
+  margin:15px;
+  background-color: #dc3545;
+  border-color: #fff;
+  font-size: 30px;
+}
+
+.play:hover {
+  color: #dc3545;
+  background-color: #fff;
+  border-color: #dc3545;
+}
+.panel {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.panel-body {
+  margin-top:-20px;
+  margin-left: -10px;
+}

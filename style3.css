@@ -1,0 +1,86 @@
+body {
+  font-family: "Neucha", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: left;
+    background-color: #141414;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.table {
+  width: auto;
+  min-width: 300px;
+  font-size: 16px;
+  color: #fff
+}
+
+tr:hover {
+  color: #000;
+}
+
+#tables {
+  text-align: center;
+  font-weight: bold;
+  color: #fff
+}
+
+.head:hover {
+  color: #fff
+}
+
+.navbarr {
+  position: fixed;
+  font-size: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 25px 25px 55px 5px/5px 55px 25px 25px;
+  padding: 0.3rem 2rem;
+  padding-right: 3em;
+  background-color: coral;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+  background-color: #141414;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+    color: #000;
+}
+
+.navbar-brand {
+  padding-top:17px;
+  font-size: 30px;
+}
+
+@media (max-width:768px) {
+  .navbarr {
+    padding: 0px 1em 0px 2rem;
+    font-size: 15px;
+    line-height: 0.4;
+  }
+  .navbar-nav>li>a {
+    line-height: 5px;
+  }
+}
+
+@media (min-width:760px) {
+  .table {
+    width: auto;
+    min-width: 500px;
+  }
+}
+
+@media (min-width:1000px) {
+  .table {
+    width: auto;
+    min-width: 700px;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;right: 0px;
+  font-size: 20px;
+}

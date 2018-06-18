@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+    <title>Quiz</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header class="navbar navbar-inverse navbar-fixed-top navbarr">
+      <a class="navbar-brand" href="#">Funivia</a>
+      <button class="btn btn-success navbar-toggle"><span class="glyphicon glyphicon-chevron-down"
+              data-toggle="collapse" data-target=".navbar-collapse"></span></button>
+      <ul class = "nav navbar-nav navbar-right navbar-collapse collapse">
+        <li class = "nav active"><a href="">Home</a></li>
+        <li class = "nav"><a href="">Contact</a></li>
+        <li class = "nav"><a href="">About</a></li>
+      </ul>
+    </header>
+
+    <div class="container-fluid" id = "buttons">
+      <div class="row">
+        <div class="col-sm-12">
+          <center><div class="plate">
+            <p class="script"><span>Fun + Trivia</span></p>
+            <p class="shadow text2">FUNIVIA</p>
+            <p class="script"><span>by Gaurav</span></p>
+          </div></center>
+        </div>
+      </div>
+      <div class="row" style="margin-top:50px;">
+        <div class="col-sm-6 col-sm-offset-3">
+          <center>
+            <a href="index2.html" ><button type="button" class="btn play">Play</button></a>
+          </center>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <center>
+            <button type="button" class="btn play instructions" id = "instructions">Instructions</button>
+          </center>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id = "disp" style="display:none;">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <div class = "panel">
+            <h2 class = "panel-heading">Instructions:</h2>
+            <hr>
+            <div class = "panel-body">
+              <ul>
+                <li>Start your game by pressing Play button on Home screen.</li>
+                <li>Each game contains 10 fun questions for you.</li>
+                <li>You will be provided with a time for each game.</li>
+                <li>You have to answer each question to proceed for the next question.</li>
+                <li>You can check your result after you submit all answers or time's up.</li>
+                <li>Each correct Question fetches you 5 points.</li>
+                <li>Each wrong Question fetches you a penalty of 5 points i.e. -5 points. (ouch!)</li>
+              </ul>
+            </div>
+            <button type="button" class="btn play panel-footer" id = "go_back">Go back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p style="Color:#FFF000;">* Funivia is under construction.</p>
+    <footer class="container-fluid"> Gaurav Aggarwal  </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

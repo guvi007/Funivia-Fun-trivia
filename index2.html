@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+    <title>Quiz</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header class="navbar navbar-inverse navbar-fixed-top navbarr">
+      <a class="navbar-brand" href="#">Funivia</a>
+      <button class="btn btn-success navbar-toggle"><span class="glyphicon glyphicon-chevron-down"
+              data-toggle="collapse" data-target=".navbar-collapse"></span></button>
+      <ul class = "nav navbar-nav navbar-right navbar-collapse collapse">
+        <li class = "nav"><a href="index.html" onclick="return confirm('Are you sure?')">Home</a></li>
+        <li class = "nav"><a href="">Contact</a></li>
+        <li class = "nav"><a href="">About</a></li>
+      </ul>
+    </header>
+
+    <div class = "container-fluid" id = "random1">
+      <div class="row">
+        <div class="col-md-4 col-sm-5 col-xs-6">
+          <p class = "points" id="que"></p>
+        </div>
+        <div class = "col-md-5 col-sm-2">
+        </div>
+        <div class="col-md-3 col-sm-5 col-xs-6">
+          <p class = "points align_right">Points: ???</p>
+        </div>
+      </div>
+    </div>
+    <center>
+      <div class="card" id = "random2">
+        <div class="card-header" id="ques_title"></div>
+          <div class="card-body">
+            <p class="card-text" id="ques"></p>
+          </div>
+        </div>
+      </div>
+    <form id="form">
+      <div class="btn-group-vertical" data-toggle="buttons" id = "random3">
+        <label class="btn play" id = "one" value=""><input type="radio" name="options" id="option1" ><p id="opt1"></p></label>
+        <label class="btn play" id = "two" value=""><input type="radio" name="options" id="option2" ><p id="opt2"></p></label>
+        <label class="btn play" id = "three" value=""><input type="radio" name="options" id="option3" ><p id="opt3"></p></label>
+        <label class="btn play" id = "four" value=""><input type="radio" name="options" id="option4" ><p id="opt4"></p></label>
+      </div>
+    </form>
+    <div id = "random4">
+      <button type="button" class="btn play2" id="submit">Submit</button>
+    </div>
+    </center>
+
+    <div id="random5" style="display:none;">
+      <div class="container-fluid" style="text-align:center; padding-top:45px;">
+        <div class="col-xs-12">
+      <p class="check_result">CHECK YOUR RESULT</p>
+      <a href="index3.html"><button type="button" class="btn play2 new" id="submit">GO</button></a>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="container-fluid"> Gaurav Aggarwal  </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script2.js"></script>
+  </body>
+</html>
